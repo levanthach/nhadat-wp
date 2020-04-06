@@ -1,0 +1,83 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+
+
+
+}
+
+@media (min-width: 992px)  and (max-width: 1199px) {
+
+	
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	
+}
+
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+	.postone a img {
+		width: 100%;
+	}
+	a.readmore {
+    margin-bottom: 15px;
+}
+.logo {
+    margin: 10px;
+    text-align: center;
+}
+
+.search {
+    margin: 0;
+    text-align: center;
+}
+
+input.s {
+    float: inherit;
+    width: 180px;
+}
+
+input.submit {
+    top: 29px;
+}
+nav.nav-main {
+    display: none;
+}
+
+.info-post {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.content-post ul li a img {
+    width: 100%;
+    height: auto;
+}
+.content-post h4 {
+    margin-top: 10px;
+}
+
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+.content-post h4 {
+    margin-top: 10px;
+}
+
+}
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+	.content-post h4 {
+    margin-top: 10px;
+}
+}
